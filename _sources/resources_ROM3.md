@@ -184,6 +184,6 @@ Be aware that task 2 and 3 evaluations often take the full three days. Therefore
 
 ### Official Rubric and Task Directions
 
-- [Task 1](https://github.com/ashejim/C769-ROM3/blob/main/resources/examples/C769_ROM3_Task1_sample1_pass.pdf)
-- [Task 2]()
-- [Task 3]()
+- [Task 1](https://ashejim.github.io/C769-ROM3/***REMOVED***)
+- [Task 2](https://ashejim.github.io/C769-ROM3/***REMOVED***)
+- [Task 3](https://ashejim.github.io/C769-ROM3/***REMOVED***)
