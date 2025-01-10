@@ -181,3 +181,9 @@ Nearing the end of your term? Plan accordingly *Note: This video was created for
 ```{warning}
 Be aware that task 2 and 3 evaluations often take the full three days. Therefore, if you are approaching the end of your term, don't wait on task 2 to start task 3 and submit task 3 early enough to have it returned, revised, and resubmitted.
 ```
+
+### Official Rubric and Task Directions
+
+- [Task 1]()
+- [Task 2]()
+- [Task 3]()
