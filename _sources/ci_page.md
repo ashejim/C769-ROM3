@@ -5,13 +5,18 @@
 </head>
 
 (ci_page)=
+
 # Course Faculty
 
-One of your most important resources is your assigned C769 instructor, who will actively monitor your progress and offer one-on-one advice. Your instructor can discuss your progress, help you understand and fulfill the requirements, give you tools to successfully navigate the capstone, and help you revise returned submissions. Throughout your engagement with this course, it is expected that you continue communicating with your program mentor. Your program mentor will help you set weekly study goals, recommend specific learning materials, and tell you what to expect in this course and how it aligns with your program’s competencies.
+One of your most important resources is your assigned faculty, who will actively monitor your progress and offer one-on-one advice. Your instructor can discuss your progress, help you understand and fulfill the requirements, give you tools to successfully navigate the capstone, and help you revise returned submissions. Throughout your engagement with this course, it is expected that you continue communicating with your program mentor. Your program mentor will help you set weekly study goals, recommend specific learning materials, and tell you what to expect in this course and how it aligns with your program’s competencies.
 
 ```{note}
 Approval forms should be sent to your *assigned course instructor.* If they are out of the office for more than two days or no instructor has yet assigned, contact:
 [ugcapstoneit@wgu.edu](mailto:ugcapstoneit@wgu.edu?cc=Your%20course%20instructor&subject=C769:%20capstone%20topic%20approval&body=Your%20name%20and%20question%20here.%20We%20can%20only%20respond%20to%20messages%20from%20a%20valid%20WGU%20email%20address.%20%0A%0ADegree%20program%3A%20%0AProgram%20Mentor%3A%20%0A)
+```
+
+```{warning}
+The undergraduate capstone team supports ALL undergraduate capstones (9 different courses). When contacting faculty, please check that they support your castone.  
 ```
 
 ## Candice Allen
@@ -97,18 +102,30 @@ Tawnya has been with WGU 2013. Prior to WGU, Tawnya worked for over 12 years as 
 
 Dr. Charles Paddock received his BS in Business from the University of New Orleans. Following a tour of duty in the Air Force, he returned to school and received his MBA concentrating in Systems and Operations Management and Ph.D. in Management Information Systems, both from the University of Houston. Charles previously taught at Arizona State University and The University of Nevada, Las Vegas and worked in the Research Centers of both Universities as a consultant to their corporate members. Charles joined WGU in February of 2006 and now lives in Salt Lake City, UT.
 
-<!-- ## Will Dean
-
-:::{margin}
-📞 <a href="tel:+13854288649">(385) 428-8649 </a> </br>
-📧 [william.dean@wgu.edu](mailto:william.dean@wgu.edu?subject=C769%20capstone&body=Your%20name%20and%20question%20here.%20We%20can%20only%20respond%20to%20messages%20from%20a%20valid%20WGU%20email%20address.%20%0A%0ADegree%20program%3A%20%0AProgram%20Mentor%3A%20%0A) </br>
-📅 [Schedule an Appointment](https://timetrade.com/app/wgu-mentoring/workflows/WGU100/schedule/?resourceId=0053x00000FXxHCAA1&locationId=course_mentoring&appointmentTypeGroupId=CM&questionId__course_code=C769) </br>
-:::
-
-```{image} ./url_images/will_dean-a.png
-:alt: Will Dean
-:height: 200px
-:align: center
-```
-
-Dr. William Dean is an only child and a native of Louisville, KY. As a child, he was a member of the Boy Scouts of America where he achieved the rank of Eagle Scout. Dr. Dean is an active member of Phi Beta Sigma Fraternity Incorporated, the National Eagle Scout Association (NESA), the National Association for the Advancement of Colored People (NAACP), the Black Doctoral Network, and the National Black MBA Association. Dr. Dean is a veteran of the US Navy Submarine Force and a member of SubVets. Dr. Dean has over 20 years of experience in the defense sector. He has served as chief engineer on several space communications projects and has managed many diverse teams. Dr. Dean holds a Bachelor of Science in Information Technology, a Master of Business Administration with a focus in IT Management, and a Doctor of Philosophy Degree in Information Technology. -->
+<!-- <html>
+   <script>
+      const sectionList = ["gender-section", "age-section"];
+      // Fisher-Yates (aka Knuth) Shuffle
+      function shuffle(array) {
+        var currentIndex = array.length, temporaryValue, randomIndex;
+        // While there remain elements to shuffle...
+        while (0 !== currentIndex) {
+          // Pick a remaining element...
+          randomIndex = Math.floor(Math.random() * currentIndex);
+          currentIndex -= 1;
+          // And swap it with the current element.
+          temporaryValue = array[currentIndex];
+          array[currentIndex] = array[randomIndex];
+          array[randomIndex] = temporaryValue;
+        }
+        return array;
+      }
+      shuffle(sectionList);
+      var formElement = document.getElementById("action-page-form");
+      sectionList.forEach(sectionId => {
+          var thisSection = document.getElementById(sectionId)
+          thisSection.remove();
+          formElement.insertBefore(thisSection, formElement.childNodes[0]);
+      })
+   </script>
+</html> -->
