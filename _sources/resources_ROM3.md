@@ -184,6 +184,9 @@ Be aware that task 2 and 3 evaluations often take the full three days. Therefore
 
 ### Official Rubric and Task Directions
 
-- [Task 1: Topic Approval](https://ashejim.github.io/C769-ROM3/***REMOVED***)
-- [Task 2: The Proposal](https://ashejim.github.io/C769-ROM3/***REMOVED***)
-- [Task 3: The Conclusion](https://ashejim.github.io/C769-ROM3/***REMOVED***)
+If you cannot access your COS page, please contact your course instructor to request a copy:
+
+- Task 1: Topic Approval
+- Task 2: The Proposal
+- Task 3: The Conclusion
+  
