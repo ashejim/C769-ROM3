@@ -243,9 +243,11 @@ But task 3 was submitted on 4/28/2023, it might be adjusted by moving back dates
 
 The narrative following the timeline can then explain that the project started earlier than expected (even if these dates preceded task 2's submission).
 
-### I've completed task 3, but task 2 is still in the assessment queue. Should I wait until task 2 passes submitting task 3?
+### I've completed task 3, but task 2 is still in the assessment queue. Should I wait until task 2 passes before submitting task 3?
 
-If you're nearing the end of your term, you should submit task 3 as soon as it's ready. If task 2 gets returned, task 3 will also automatically be returned. However, if it passes, task 3 will keep its place in the assessment queue.
+If you're nearing the end of your term, you should submit Task 3 as soon as it's ready. If Task 2 gets returned, task 3 will also automatically be returned, but Task 3 will keep its place in the assessment queue if it passes. However, submitting them at least 4-6 hours apart is best. When submitted too close together, Task 3 can be picked up before Task 2 is finished being assessed.
+
+All submissions before 11:59 pm MT at the end of your term will count towards this term regardless of when they are returned. If you need to submit Tasks 2 and 3 on the last day of your term, try to space the submission out as much as possible while still submitting within this deadline.
 
 ### My task was returned for "In-text citations could not be found..."
 
