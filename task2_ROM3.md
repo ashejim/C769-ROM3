@@ -86,7 +86,7 @@ Summarize the solution and why the solution will fix the problem from A1.
 
 ### A3: Implementation Plan
 
-Descibe the implemetation plan detailed in section E (Methodology). This section should:
+Describe the implementation plan detailed in section E (Methodology). This section should:
 
 - Describe the *specific steps* for how the plan will be implemented (this section should repeat *E: Methodology*).
 - Identify who will implement each step.
