@@ -53,15 +53,15 @@ For a more down-to-earth example of what's required, see these examples:
 `````{tab-set}
 ````{tab-item} Example set 1
 **Topic:** Modern Security Information and Event Management (SIEM) Systems
-> Task 1: [Topic approval form example](https://github.com/ashejim/C769-ROM3/blob/main/resources/examples/Sample1_C769_ROM3_Task1.pdf)  
-> Task 2: [Project proposal example](https://github.com/ashejim/C769-ROM3/blob/main/resources/examples/Sample1_C769_ROM3_Task2.pdf)  
-> Task 3: [Project report example](https://github.com/ashejim/C769-ROM3/blob/main/resources/examples/Sample1_C769_ROM3_Task3.pdf)
+> Task 1: [Topic approval form example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample1_C769_ROM3_Task1.pdf)  
+> Task 2: [Project proposal example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample1_C769_ROM3_Task2.pdf)  
+> Task 3: [Project report example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample1_C769_ROM3_Task3.pdf)
 ````
 ````{tab-item} Example set 2
 **Topic:** Security Evaluation and Upgrade
-> Task 1: [Topic approval form example](https://github.com/ashejim/C769-ROM3/blob/main/resources/examples/Sample2_C769_ROM3_Task1.pdf)  
-> Task 2: [Project proposal example](https://github.com/ashejim/C769-ROM3/blob/main/resources/examples/Sample2_C769_ROM3_Task2.pdf)  
-> Task 3: [Project report example](https://github.com/ashejim/C769-ROM3/blob/main/resources/examples/Sample2_C769_ROM3_Task3.pdf)
+> Task 1: [Topic approval form example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample2_C769_ROM3_Task1.pdf)  
+> Task 2: [Project proposal example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample2_C769_ROM3_Task2.pdf)  
+> Task 3: [Project report example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample2_C769_ROM3_Task3.pdf)
 :::{note}
 The security upgrades, not the evalaution, is what's necessary to meet the requriements. 
 :::
