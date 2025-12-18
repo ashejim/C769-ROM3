@@ -16,19 +16,20 @@
 ## Examples
 
 These examples are on-par with average passing tasks. Use them as a guideline for what evaluators accept in fulfillment of the requirements.  
+<!-- change raw to blob to view pdf in github. GitHub is having issues showing the file in Chrome and Edge -->
 
 `````{tab-set}
 ````{tab-item} Example set 1
 **Topic:** Modern Security Information and Event Management (SIEM) Systems
-> Task 1: [Topic approval form example](https://github.com/ashejim/C769-ROM3/blob/main/resources/examples/Sample1_C769_ROM3_Task1.pdf)  
-> Task 2: [Project proposal example](https://github.com/ashejim/C769-ROM3/blob/main/resources/examples/Sample1_C769_ROM3_Task2.pdf)  
-> Task 3: [Project report example](https://github.com/ashejim/C769-ROM3/blob/main/resources/examples/Sample1_C769_ROM3_Task3.pdf)
+> Task 1: [Topic approval form example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample1_C769_ROM3_Task1.pdf)  
+> Task 2: [Project proposal example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample1_C769_ROM3_Task2.pdf)  
+> Task 3: [Project report example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample1_C769_ROM3_Task3.pdf)
 ````
 ````{tab-item} Example set 2
 **Topic:** Security Evaluation and Upgrade
-> Task 1: [Topic approval form example](https://github.com/ashejim/C769-ROM3/blob/main/resources/examples/Sample2_C769_ROM3_Task1.pdf)  
-> Task 2: [Project proposal example](https://github.com/ashejim/C769-ROM3/blob/main/resources/examples/Sample2_C769_ROM3_Task2.pdf)  
-> Task 3: [Project report example](https://github.com/ashejim/C769-ROM3/blob/main/resources/examples/Sample2_C769_ROM3_Task3.pdf)
+> Task 1: [Topic approval form example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample2_C769_ROM3_Task1.pdf)  
+> Task 2: [Project proposal example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample2_C769_ROM3_Task2.pdf)  
+> Task 3: [Project report example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample2_C769_ROM3_Task3.pdf)
 :::{note}
 The security upgrades, not the evalaution, is what's necessary to meet the requriements. 
 :::
@@ -45,7 +46,7 @@ The [Capstone Excellence Archive](https://westerngovernorsuniversity.sharepoint.
 
 IT Audio Series podcast [Converting Task 2 to Task 3](https://d2y36twrtb17ty.cloudfront.net/sessions/a96a8bee-7aef-4777-8964-ac9400174e42/0cb7de42-4057-45d6-9282-ac9400174e5b-436eb412-8cec-4cfb-992b-ac9400178e7b.mp4?invocationId=aae81915-bee9-ed11-828e-12b1cb861383); view the [transcript](https://www.wgu.edu/content/dam/western-governors/documents/it/audio-series/ConvertingTask2toTask3.docx). -->
 
-## Grammar, Sources, and APA
+## General Resources
 
 (resources:general:grammar:writing_center)=
 
@@ -57,9 +58,15 @@ IT Audio Series podcast [Converting Task 2 to Task 3](https://d2y36twrtb17ty.clo
 
 (resources:general:grammar:grammarly)=
 
+### WGU AI Policies
+
+- [AI Student Policy & Responsible Use Hub](https://westerngovernorsuniversity.sharepoint.com/sites/CredentialIntegrity/SitePages/AI-Policy.aspx?csf=1&web=1&e=7gLO85)
+- [Student Guide ro Using AI at WGU](https://cm.wgu.edu/t5/Frequently-Asked-Questions/Student-Guide-to-Using-AI-at-Western-Governors-University/ta-p/67810)
+- [Use of Artificial Intelligence (AI) Tools](https://cm.wgu.edu/t5/WGU-Student-Policy-Handbook/Use-of-Artificial-Intelligence-AI-Tools/ta-p/67811)
+
 ### Grammar
 
-Check your grammar using [Grammarly.com](https://www.grammarly.com/) ![grammarly_icon](https://github.com/ashejim/C769-ROM3/blob/main/url_images/icon-grammarly.png?raw=true#icon) (it's what the evaluators use). Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in *Professional Communication*. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.
+Check your grammar using [Grammarly.com](https://www.grammarly.com/) ![grammarly_icon](https://github.com/ashejim/C769-ROM3/raw/main/url_images/icon-grammarly.png?raw=true#icon) (it's what the evaluators use). Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in *Professional Communication*. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.
 
 :::{warning}
 Students have reported missed mistakes when using the Google doc Grammarly extension. Therefore, we advise copying content directly into the app or purchasing the premium version compatible with MS Word.
@@ -71,7 +78,7 @@ Get the best writing help from the writing experts: [WGU Writing Center](https:/
 
 ## Sources and Professional Communication
 
-It's easy to overlook them when focusing on content, but grammar, sources, and APA formatting are the most common reasons for rejected submissions! Check your grammar using [Grammarly.com](https://cm.wgu.edu/t5/Academic-Coaching-Center/I-Need-Help-with-Professional-Communication/ta-p/23355) ![grammarly_icon](https://github.com/ashejim/C769-ROM3/blob/main/url_images/icon-grammarly.png?raw=true#icon) (it's what the evaluators use). Get your [FREE Gramamrly education license](https://www.grammarly.com/edu/western-governors-university) through WGU.  
+It's easy to overlook them when focusing on content, but grammar, sources, and APA formatting are the most common reasons for rejected submissions! Check your grammar using [Grammarly.com](https://cm.wgu.edu/t5/Academic-Coaching-Center/I-Need-Help-with-Professional-Communication/ta-p/23355) ![grammarly_icon](https://github.com/ashejim/C769-ROM3/raw/main/url_images/icon-grammarly.png?raw=true#icon) (it's what the evaluators use). Get your [FREE Gramamrly education license](https://www.grammarly.com/edu/western-governors-university) through WGU.  
 
 Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) can prevent competency in *Professional Communication*.
 
