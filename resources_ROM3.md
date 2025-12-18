@@ -58,6 +58,12 @@ IT Audio Series podcast [Converting Task 2 to Task 3](https://d2y36twrtb17ty.clo
 
 (resources:general:grammar:grammarly)=
 
+### WGU AI Policies
+
+- [AI Student Policy & Responsible Use Hub](https://westerngovernorsuniversity.sharepoint.com/sites/CredentialIntegrity/SitePages/AI-Policy.aspx?csf=1&web=1&e=7gLO85)
+- [Student Guide ro Using AI at WGU](https://cm.wgu.edu/t5/Frequently-Asked-Questions/Student-Guide-to-Using-AI-at-Western-Governors-University/ta-p/67810)
+- [Use of Artificial Intelligence (AI) Tools](https://cm.wgu.edu/t5/WGU-Student-Policy-Handbook/Use-of-Artificial-Intelligence-AI-Tools/ta-p/67811)
+
 ### Grammar
 
 Check your grammar using [Grammarly.com](https://www.grammarly.com/) ![grammarly_icon](https://github.com/ashejim/C769-ROM3/raw/main/url_images/icon-grammarly.png?raw=true#icon) (it's what the evaluators use). Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in *Professional Communication*. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.
