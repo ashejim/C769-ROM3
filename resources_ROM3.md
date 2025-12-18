@@ -46,7 +46,7 @@ The [Capstone Excellence Archive](https://westerngovernorsuniversity.sharepoint.
 
 IT Audio Series podcast [Converting Task 2 to Task 3](https://d2y36twrtb17ty.cloudfront.net/sessions/a96a8bee-7aef-4777-8964-ac9400174e42/0cb7de42-4057-45d6-9282-ac9400174e5b-436eb412-8cec-4cfb-992b-ac9400178e7b.mp4?invocationId=aae81915-bee9-ed11-828e-12b1cb861383); view the [transcript](https://www.wgu.edu/content/dam/western-governors/documents/it/audio-series/ConvertingTask2toTask3.docx). -->
 
-## Grammar, Sources, and APA
+## General Resources
 
 (resources:general:grammar:writing_center)=
 

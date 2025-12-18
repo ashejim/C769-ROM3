@@ -49,7 +49,7 @@ Sections are assessed independently against the rubric requirements, i.e., when 
 
 ```{admonition} Do NOT write an outline!
 :class: error
-Most must be written in a narrative style with complete sentences and paragraphs. Tables and bullet points are acceptable for sections F1, F2, and G. 
+Most must be written in a narrative style with complete sentences and paragraphs. Tables are acceptable for sections F1 and G. 
 ```
 
 (task2:A)=

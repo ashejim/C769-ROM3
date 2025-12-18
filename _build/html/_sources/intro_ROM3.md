@@ -1,3 +1,9 @@
+:::{warning}
+**Nothing on this website is an official WGU resource developed by the WGU product development team.** See your COS page to review the official resources.
+
+🚧 This site is under construction! Apologies in advance for typos, broken links, etc. Feel free to make recommendations and become a contributor! 👷🏽‍♀️
+:::
+
 # Welcome to C769!
 
 Welcome! The IT capstone is a written project demonstrating competency in your field through communicating the planning and implementation of an IT solution to a business problem.
