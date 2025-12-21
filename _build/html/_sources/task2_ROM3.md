@@ -1,6 +1,7 @@
 # Task 2
+
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%">
-	<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=558c47b5-dcdd-4b0f-b9b3-b3b80158520b" style="border: 1px solid #464646; position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="C769 Capstone Task 1: topic Approval" alt= "Title screen for the video." width="640px" height="360px"></iframe>
+	<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=558c47b5-dcdd-4b0f-b9b3-b3b80158520b&autoplay=false&offerviewer=false&showtitle=true&showbrand=true&captions=true&interactivity=all" style="border: 1px solid #464646; position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="C769: Quick overview of Task 2."></iframe>
 </div>
 
 Write your proposal following **Task 2: The Proposal template**:
