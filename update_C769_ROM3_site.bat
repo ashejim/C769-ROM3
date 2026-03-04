@@ -17,4 +17,4 @@ ghp-import -n -p -f _build/html
 echo "Imported to git page..."
 start https://ashejim.github.io/C769-ROM3/intro_ROM3.html
 echo "Gitpage may take a few minutes to update. END"
-cd cd ..\..\C769-ROM3\
+cd cd ..\..\C769-ROM3\upo   
