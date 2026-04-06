@@ -35,7 +35,7 @@ A  *hard IT deliverable* is a physical or digital technological improvement to t
 - Submit the approval form without a signature
 ```
 
-Some examples of acceptable topics:
+Some examples of **acceptable** topics:
 
 - Multi-factor authentication (MFA) implementation
 - Security information and event management (SIEM) implementation
@@ -44,6 +44,13 @@ Some examples of acceptable topics:
 - Cloud migration or data backups
 - Phishing Training software (as a permanent improvement)
 - Building or improving a website
+
+Some examples of **problematic** topics:
+- Assessments and reports, such as Pen Testing.  
+- Frameworks or research
+- Training, policies, or documnetation
+
+Your project must focus on implementing technology to solve a client’s problem. For example, it’s difficult to write about a Pen Test that hasn’t been conducted. Setting up automated Pen Tests is acceptable, but the IT solution is the automated tests, not the Pen Test itself.
 
 ### Examples
 
