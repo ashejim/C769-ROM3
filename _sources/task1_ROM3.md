@@ -42,7 +42,8 @@ Some examples of acceptable topics:
 - Network hardware or software installation/upgrades
 - Installation of a functional software system (scheduling, networking, point-of-sale, financial, etc.)
 - Cloud migration or data backups
-- Building a website
+- Phishing Training software (as a permanent improvement)
+- Building or improving a website
 
 ### Examples
 
