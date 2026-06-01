@@ -16,42 +16,45 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-
-  
-  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css?v=8cd3d715" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="_static/my_css.css?v=7801b114" />
   
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
-  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
     <script src="_static/documentation_options.js?v=9eb32ce0"></script>
     <script src="_static/doctools.js?v=9a2dae69"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="_static/copybutton.js?v=f281be69"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="_static/togglebutton.js?v=b8b12719"></script>
     <script kind="utterances">
 
     var commentsRunWhenDOMLoaded = cb => {
@@ -105,8 +108,6 @@ commentsRunWhenDOMLoaded(addUtterances);
                 gtag('config', 'G-KX2MGTZB0G');
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'task1_ROM3';</script>
     <link rel="canonical" href="https://ashejim.github.io/C769-ROM3/task1_ROM3.html" />
     <link rel="index" title="Index" href="genindex.html" />
@@ -115,6 +116,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     <link rel="prev" title="Welcome to C769!" href="intro_ROM3.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -130,19 +132,8 @@ commentsRunWhenDOMLoaded(addUtterances);
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <input type="checkbox"
-          class="sidebar-toggle"
-          id="pst-primary-sidebar-checkbox"/>
-  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
-  
-  <input type="checkbox"
-          class="sidebar-toggle"
-          id="pst-secondary-sidebar-checkbox"/>
-  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
-  
-  <div class="search-button__wrapper">
-    <div class="search-button__overlay"></div>
-    <div class="search-button__search-container">
+  <dialog id="pst-search-dialog">
+    
 <form class="bd-search d-flex align-items-center"
       action="search.html"
       method="get">
@@ -150,7 +141,6 @@ commentsRunWhenDOMLoaded(addUtterances);
   <input type="search"
          class="form-control"
          name="q"
-         id="search-input"
          placeholder="Search this book..."
          aria-label="Search this book..."
          autocomplete="off"
@@ -158,8 +148,8 @@ commentsRunWhenDOMLoaded(addUtterances);
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form></div>
-  </div>
+</form>
+  </dialog>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -175,7 +165,8 @@ commentsRunWhenDOMLoaded(addUtterances);
       
       
       
-      <div class="bd-sidebar-primary bd-sidebar">
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -205,21 +196,17 @@ commentsRunWhenDOMLoaded(addUtterances);
     
     
     <img src="_static/logo2.png" class="logo__image only-light" alt="IT Capstone - Home"/>
-    <script>document.write(`<img src="_static/logo2.png" class="logo__image only-dark" alt="IT Capstone - Home"/>`);</script>
+    <img src="_static/logo2.png" class="logo__image only-dark pst-js-only" alt="IT Capstone - Home"/>
   
   
 </a></div>
         <div class="sidebar-primary-item">
 
- <script>
- document.write(`
-   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <span class="search-button__default-text">Search</span>
-    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-   </button>
- `);
- </script></div>
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
@@ -247,9 +234,14 @@ commentsRunWhenDOMLoaded(addUtterances);
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
   </div>
-  
-  <div id="rtd-footer-container"></div>
 
 
       </div>
@@ -396,7 +388,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 
 
 <button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
   title="Fullscreen mode"
   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
@@ -410,25 +402,17 @@ commentsRunWhenDOMLoaded(addUtterances);
 
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
-    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
-    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
-  </button>
-`);
-</script>
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-  </button>
-`);
-</script>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
 </button>
 </div></div>
@@ -455,19 +439,18 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#topic-approval">Topic Approval</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#waiver-form">Waiver Form</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#submitting-the-approval-form">Submitting the Approval Form</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#restricted-information-authorization-form">Restricted Information Authorization Form</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#faq">FAQ</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#do-i-need-to-set-up-an-appointment-to-get-approval">Do I need to set up an appointment to get approval?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#do-i-need-to-set-up-an-appointment-before-submitting">Do I need to set up an appointment before submitting?</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-if-i-start-writing-task-2-and-want-to-change-things-do-i-need-to-resubmit-task-1">What if I start writing task 2 and want to change things? Do I need to resubmit task 1?</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#can-i-use-projects-from-other-wgu-courses">Can I use projects from other WGU courses?</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-do-i-add-my-signature-to-the-forms">How do I add my “signature” to the forms?</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-common-reasons-for-task-1-being-returned">What are the common reasons for task 1 being returned?</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-many-attempts-are-allowed-for-each-assessment">How many attempts are allowed for each assessment?</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-a-hard-it-deliverable">What is a hard IT deliverable?</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#can-i-get-the-welcome-email">Can I get the “welcome email?”</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#are-there-any-cohorts-i-don-t-see-where-to-sign-up-on-my-cos-page">Are there any cohorts? I don’t see where to sign-up on my COS page.</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#should-i-check-the-irb-statement-on-the-approval-form">Should I check the IRB statement on the approval form?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-should-i-answer-the-human-subjects-research-question">How should I answer the human-subjects research question?</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions-comments-or-suggestions">Questions, comments, or suggestions?</a></li>
@@ -488,17 +471,21 @@ document.write(`
 <!-- <head>
     <base target="_blank">
 </head> -->
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>Submission process update.</strong> Task 1 is no longer signed and returned by your course instructor. <strong>Fill out the approval form and submit it directly to Assessments</strong> as your Task 1. Your course instructor (or, in the future, an evaluator) will either pass your submission or return it with comments for revision. This mirrors how you submit Tasks 2 and 3. The video below was recorded under the previous process — the topic guidance still applies, but ignore the instructions about emailing or signing the form.</p>
+</div>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%">
 	<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=6e1e1424-d74b-4c98-b965-b35501196759&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" style="border: 1px solid #464646; position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="C769 Capstone Task 1: topic Approval" alt= "Title screen for the video." width="640px" height="360px"></iframe>
 </div>
 <section id="choosing-a-topic">
 <span id="task1-chooseatopic"></span><h2>Choosing a Topic<a class="headerlink" href="#choosing-a-topic" title="Link to this heading">#</a></h2>
-<p>The approval form ensures you start in the right direction before investing time and effort into task 2. Evaluators look for our (<a class="reference internal" href="ci_page.html#ci-page"><span class="std std-ref">instructors’</span></a>) signature, and we look for the following:</p>
+<p>The approval form confirms a viable topic before you invest time and effort in Task 2. Course instructors approve a topic when it has the following:</p>
 <ol class="arabic simple">
-<li><p>A <em>specific</em> client and problem (you can fabricate a client whose problem needs your chosen solution.)</p></li>
+<li><p>A <em>specific</em> client with a problem solvable by technology (you can fabricate a client whose problem needs your chosen solution.)</p></li>
 <li><p>A plan to implement at least one <a class="reference internal" href="#task1-faq-hard"><span class="std std-ref">hard IT deliverable</span></a> that helps solve that problem.</p></li>
 </ol>
-<p>Propose a project that clearly includes implementing an IT solution (e.g., hardware, software, networks, etc.) rather than a project that only involves the development of a plan or abstract framework. You must describe the specific hard IT deliverable (s) to be implemented. If the topic requires an initial assessment, as with many security projects, assume the evaluation has already concluded so that the approval form (Task 1) and proposal (Task 2) can focus on implementing the solution.</p>
+<p>Propose a project that clearly includes implementing an IT solution (e.g., hardware, software, networks, etc.) rather than a project that only involves the development of a plan or abstract framework. You must describe the specific hard IT deliverable(s) to be implemented. If the topic requires an initial assessment, as with many security projects, assume the evaluation has already concluded so that the approval form (Task 1) and proposal (Task 2) can focus on implementing the solution.</p>
 <aside class="margin sidebar">
 <p class="sidebar-title">What is a hard IT deliverable?</p>
 <p>A  <em>hard IT deliverable</em> is a physical or digital technological improvement to the client’s environment. Examples include any hardware or software installation or updates. <em>Soft deliverables</em>, e.g., training, policies, evaluation, etc., can (and often should) be included but cannot meet the requirements alone.</p>
@@ -507,15 +494,15 @@ document.write(`
 <p class="admonition-title">Do:</p>
 <ul class="simple">
 <li><p>Name a client and describe an IT need or problem.</p></li>
-<li><p>Provide specific IT improvements addressing the client’s need or problem.</p></li>
-<li><p>Email the completed approval form to your assigned course instructor for review and signature.</p></li>
+<li><p>Propose specific IT improvements (the <em>hard IT deliverable</em>) that address the client’s need or problem.</p></li>
+<li><p>Submit the completed approval form directly to Assessments.</p></li>
 </ul>
 </div>
 <div class="error admonition">
 <p class="admonition-title">Do NOT:</p>
 <ul class="simple">
-<li><p>Choose a topic that is a framework, general approach, training, or evaluation.</p></li>
-<li><p>Submit the approval form without a signature</p></li>
+<li><p>Choose a topic that is a framework, general approach, training, or evaluation alone.</p></li>
+<li><p>Skip the <em>Student Certification</em> questions at the end of the form (all three must be answered).</p></li>
 </ul>
 </div>
 <p>Some examples of <strong>acceptable</strong> topics:</p>
@@ -532,7 +519,7 @@ document.write(`
 <ul class="simple">
 <li><p>Assessments and reports, such as Pen Testing.</p></li>
 <li><p>Frameworks or research</p></li>
-<li><p>Training, policies, or documnetation</p></li>
+<li><p>Training, policies, or documentation</p></li>
 </ul>
 <p>Your project must focus on implementing technology to solve a client’s problem. For example, it’s difficult to write about a Pen Test that hasn’t been conducted. Setting up automated Pen Tests is acceptable, but the IT solution is the automated tests, not the Pen Test itself.</p>
 <section id="examples">
@@ -562,15 +549,19 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/C769-ROM3
 </div></blockquote>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The security upgrades, not the evalaution, is what’s necessary to meet the requriements.</p>
+<p>The security upgrades, not the evaluation, are what’s necessary to meet the requirements.</p>
 </div>
 </div>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>If you see <code class="docutils literal notranslate"><span class="pre">Unable</span> <span class="pre">to</span> <span class="pre">render</span> <span class="pre">code</span> <span class="pre">block</span></code> /C769-ROM3/hen attempting to view the examples, open the link using Firefox or download and view it with your favorite viewer.</p>
+<p>If you see <code class="docutils literal notranslate"><span class="pre">Unable</span> <span class="pre">to</span> <span class="pre">render</span> <span class="pre">code</span> <span class="pre">block</span></code> when attempting to view the examples, open the link using Firefox or download and view it with your favorite viewer.</p>
 </div>
 <p><strong>Watch:</strong> Choosing a Project Idea</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This video was recorded before the current submission process. Topic-selection guidance still applies; disregard the email/signature workflow.</p>
+</div>
 <iframe
     src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=d8678068-8f7e-44fb-be19-b1f7010addf6&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all"
     title="Choosing a topic"
@@ -585,37 +576,42 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/C769-ROM3
 <p>Though still relevant, we created this video for ROM2 -not ROM3.</p>
 </section>
 </section>
-<section id="topic-approval">
-<span id="task1-topicapproval"></span><h2>Topic Approval<a class="headerlink" href="#topic-approval" title="Link to this heading">#</a></h2>
-<p>Once you’ve decided on a topic, complete the approval form following the template:</p>
-<!-- > [![Thumbnail of the Topic Approval Form](https://github.com/ashejim/C769-ROM3/blob/main/url_images/C769_t1_approval.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/ES7B62K50FpKhgSwOZxgRVcByPT8r6oIWJDFrcpzpPNbqw?e=qWyM4D) #https://1drv.ms/w/s!Av4KQnJfiBxmiIkCz9gDp0ikvbPwtA?e=reEd4k -->
+<section id="submitting-the-approval-form">
+<span id="task1-topicapproval"></span><h2>Submitting the Approval Form<a class="headerlink" href="#submitting-the-approval-form" title="Link to this heading">#</a></h2>
+<p>Once you’ve decided on a topic, complete the approval form and submit it directly to Assessments. The form has four short sections:</p>
+<ol class="arabic simple">
+<li><p><strong>The Client and the Problem.</strong> Name a specific client (real or fabricated) and describe their problem in 2–4 sentences.</p></li>
+<li><p><strong>The IT Solution.</strong> Identify the hardware or software to be installed, built, or upgraded as a permanent part of the client’s environment. 2–4 sentences.</p></li>
+<li><p><strong>Supporting Soft Deliverables (optional).</strong> Training, policies, or documentation that accompany the IT solution. Optional — leave blank if none.</p></li>
+<li><p><strong>Student Certification.</strong> Three Yes/No questions that must all be answered:</p>
+<ul class="simple">
+<li><p>Whether you understand the project requirements (the project implements a hard IT deliverable for a specific client; real or fabricated is OK).</p></li>
+<li><p>Whether your project involves human-subject research. If <strong>Yes</strong>, <a class="reference internal" href="ci_page.html#ci-page"><span class="std std-ref">contact your course instructor</span></a> before submitting.</p></li>
+<li><p>Whether your project uses restricted or proprietary information from an employer or third party. If <strong>Yes</strong>, also submit the <a class="reference internal" href="#task1-waiverform"><span class="std std-ref">Restricted Information Authorization Form</span></a>.</p></li>
+</ul>
+</li>
+</ol>
+<!-- TODO: Replace the linked form below with the new C769 Task 1 Approval Form once it's hosted in the GitHub repo. The new form is in new_Task 1_resources/C769/New C769_Task1_Approval_Form.docx. -->
 <blockquote>
-<div><p><a class="reference external" href="https://raw.github.com/ashejim/C769-ROM3/main/resources/C769_ROM3_IT%20Capstone%20Topic%20Approval%20Form%20.docx">Topic Approval Form Template docx format</a></p>
-<p><a class="reference external" href="https://raw.github.com/ashejim/C769-ROM3/main/resources/C769_ROM3_IT%20Capstone%20Topic%20Approval%20Form%20.odt">Topic Approval Form Template odt format</a></p>
+<div><p><a class="reference external" href="https://raw.github.com/ashejim/C769-ROM3/main/resources/C769_ROM3_IT%20Capstone%20Topic%20Approval%20Form%20.docx">Topic Approval Form Template (docx)</a></p>
 </div></blockquote>
-<p>Include a rough outline of your client, their problem(s), and your IT plan to fix it. <strong>Email the completed form to</strong> <strong><a class="reference internal" href="ci_page.html#ci-page"><span class="std std-ref">your course instructor</span></a></strong>, who will either approve it with their signature or provide feedback.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<ul class="simple">
-<li><p>The topic approval form must be <em>signed by a</em> <em><a class="reference internal" href="ci_page.html#ci-page"><span class="std std-ref">C769 course instructor</span></a></em>. Forms without a signature are automatically returned without further review.</p></li>
-</ul>
+<p>You <strong>submit the completed form directly to Assessments</strong> as your Task 1. There is no email-to-instructor or signature step. Your course instructor (or, in the future, an evaluator) will pass your submission or return it with comments for revision. This mirrors how Tasks 2 and 3 are submitted.</p>
 </div>
-<p>Directly emailing your assigned course instructor is the fastest and often best way to get a signature. Whether emailing <a class="reference external" href="mailto:ugcapstoneit&#37;&#52;&#48;wgu&#46;edu?cc=my%20course%20instructor&amp;amp;subject=C769:%20capstone%20topic%20approval&amp;amp;body=Your%20name%20and%20question%20here&#46;%20We%20can%20only%20respond%20to%20messages%20from%20a%20valid%20WGU%20email%20address&#46;%20%0A%0ADegree%20program%3A%20%0AProgram%20Mentor%3A%20%0A">ugcapstoneit<span>&#64;</span>wgu<span>&#46;</span>edu</a> or your CI directly, always practice professional communication:</p>
-<ul class="simple">
-<li><p>Use your WGU email.</p></li>
-<li><p>Provide a subject, your capstone course, and your program mentor’s name (if not in your signature)</p></li>
-<li><p>Clearly state your questions or requests.</p></li>
-</ul>
-<p>You only need to apply for IRB review if you are collecting data involving human participants (this is rarely needed). Otherwise, your project is in IRB compliance, and you should put a <span class="math notranslate nohighlight">\(\checkmark\)</span> next to the IRB statement.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If you have questions about your topic <em>before</em> submitting, you can still email <a class="reference internal" href="ci_page.html#ci-page"><span class="std std-ref">your course instructor</span></a> or the team inbox <a class="reference external" href="mailto:ugcapstoneit&#37;&#52;&#48;wgu&#46;edu?cc=my%20course%20instructor&amp;amp;subject=C769:%20capstone%20topic%20question&amp;amp;body=Your%20name%20and%20question%20here&#46;%20We%20can%20only%20respond%20to%20messages%20from%20a%20valid%20WGU%20email%20address&#46;%20%0A%0ADegree%20program%3A%20%0AProgram%20Mentor%3A%20%0A">ugcapstoneit<span>&#64;</span>wgu<span>&#46;</span>edu</a>. When you do, use your WGU email, give a clear subject line including your capstone course and your program mentor’s name, and state your question directly.</p>
+</div>
 </section>
-<section id="waiver-form">
-<span id="task1-waiverform"></span><h2>Waiver Form<a class="headerlink" href="#waiver-form" title="Link to this heading">#</a></h2>
+<section id="restricted-information-authorization-form">
+<span id="task1-waiverform"></span><h2>Restricted Information Authorization Form<a class="headerlink" href="#restricted-information-authorization-form" title="Link to this heading">#</a></h2>
 <!-- Everyone must submit a waiver form stating either their project is not based on restricted information OR use of any restricted information is authorized. -->
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The waiver form is <strong>only</strong> required if your project includes restricted information. If no waiver form is submitted, *<em>Task 1 B:RESTRICTED INFORMATION AUTHORIZATION FORM</em>, passes automatically.</p>
+<p>This form is <strong>only</strong> required if you answered <strong>Yes</strong> to Student Certification question 3 on the approval form (your project uses restricted or proprietary information from an employer or third party). If your project does not use restricted information, you do not need to submit this form, and Task 1 <em>B: Restricted Information Authorization Form</em> passes automatically.</p>
 </div>
-<p>In most cases, obtaining authorization can be avoided by fabricating or masking identifying information. But if you choose to move forward using restricted information, you must obtain documented permissions and submit them along with a waiver form to Assessments.</p>
+<p>In most cases, obtaining authorization can be avoided by fabricating or masking identifying information. But if you choose to move forward using restricted information, you must obtain documented permissions and submit them along with this form to Assessments.</p>
 <!-- > [![Thumbnail of the Waiver Form](https://github.com/ashejim/C769-ROM3/blob/main/url_images/769_waiver_form_thumb-1.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EUNAmf7lWqxOmKBLWTQ_zPcByoxrOLLK5sILQeeUoeYGeQ?e=9d1Ef7) -->
 <blockquote>
 <div><p><a class="reference external" href="https://raw.github.com/ashejim/C769-ROM3/main/resources/C769_IT%20Capstone%20Project%20Restricted%20Information%20Authorization%20Form.docx">Waiver Form docx format</a></p>
@@ -627,9 +623,9 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/C769-ROM3
 </section>
 <section id="faq">
 <span id="task1-faq"></span><h2>FAQ<a class="headerlink" href="#faq" title="Link to this heading">#</a></h2>
-<section id="do-i-need-to-set-up-an-appointment-to-get-approval">
-<h3>Do I need to set up an appointment to get approval?<a class="headerlink" href="#do-i-need-to-set-up-an-appointment-to-get-approval" title="Link to this heading">#</a></h3>
-<p>No. Usually, students email the approval form to their instructor. We then sign the form or follow up with questions. However, if you have questions about the requirements or difficulty choosing a topic, you are encouraged to schedule an appointment with <a class="reference internal" href="ci_page.html#ci-page"><span class="std std-ref">your course instructor</span></a>. A 15-30 minute phone call can address most questions or concerns. If you schedule an appointment to discuss your approval form, please email it to the instructor before the appointment.</p>
+<section id="do-i-need-to-set-up-an-appointment-before-submitting">
+<h3>Do I need to set up an appointment before submitting?<a class="headerlink" href="#do-i-need-to-set-up-an-appointment-before-submitting" title="Link to this heading">#</a></h3>
+<p>No. Most students fill out the approval form and submit it directly to Assessments — there’s no instructor review step in advance. If you have questions about the requirements or difficulty choosing a topic, you’re still encouraged to schedule an appointment with <a class="reference internal" href="ci_page.html#ci-page"><span class="std std-ref">your course instructor</span></a>. A 15–30 minute phone call can address most questions or concerns <em>before</em> you submit.</p>
 </section>
 <section id="what-if-i-start-writing-task-2-and-want-to-change-things-do-i-need-to-resubmit-task-1">
 <h3>What if I start writing task 2 and want to change things? Do I need to resubmit task 1?<a class="headerlink" href="#what-if-i-start-writing-task-2-and-want-to-change-things-do-i-need-to-resubmit-task-1" title="Link to this heading">#</a></h3>
@@ -639,17 +635,14 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/C769-ROM3
 <h3>Can I use projects from other WGU courses?<a class="headerlink" href="#can-i-use-projects-from-other-wgu-courses" title="Link to this heading">#</a></h3>
 <p>Yes! You can use any of your work or academic projects (at WGU or elsewhere), provided you do not use proprietary information without permission. Don’t worry about self-plagiarism; the similarity check will identify and ignore it. As in reusing work projects, expect to modify and remold past academic assignments to meet the rubric requirements.</p>
 </section>
-<section id="how-do-i-add-my-signature-to-the-forms">
-<h3>How do I add my “signature” to the forms?<a class="headerlink" href="#how-do-i-add-my-signature-to-the-forms" title="Link to this heading">#</a></h3>
-<p>You can simply type in your name, use a “fancy” font, or insert an image of your signature.</p>
-</section>
 <section id="what-are-the-common-reasons-for-task-1-being-returned">
 <h3>What are the common reasons for task 1 being returned?<a class="headerlink" href="#what-are-the-common-reasons-for-task-1-being-returned" title="Link to this heading">#</a></h3>
 <ol class="arabic simple">
-<li><p>No instructor signature on the approval form. You need to send it to us and get a signature <em>before</em> submitting it.</p></li>
-<li><p>Both boxes or no boxes are marked on the waiver form. <em>Mark one and only one box</em>.</p></li>
+<li><p><strong>No specific client.</strong> The Client and the Problem box must name a specific client (real or fabricated — “Company X, a 40-person regional accounting firm” is fine). “A small business” or “an organization” is too generic.</p></li>
+<li><p><strong>No hard IT deliverable.</strong> The IT Solution box must name specific hardware or software to be installed, built, or upgraded as a permanent part of the client’s environment. Training, policies, assessments, audits, or recommendations alone aren’t enough.</p></li>
+<li><p><strong>Student Certification questions left blank.</strong> All three Yes/No questions must be answered before submission.</p></li>
+<li><p><strong>Restricted information without the waiver.</strong> If you answered <strong>Yes</strong> to Student Certification question 3, you must also submit the <a class="reference internal" href="#task1-waiverform"><span class="std std-ref">Restricted Information Authorization Form</span></a>.</p></li>
 </ol>
-<p>Note, the waiver form is <strong>only</strong> required if your project includes restricted information. Task 1 <em>B: Capstone Release Form</em>, passes automatically if no waiver form is submitted, i.e., the waiver is only needed if it’s needed.</p>
 </section>
 <section id="how-many-attempts-are-allowed-for-each-assessment">
 <h3>How many attempts are allowed for each assessment?<a class="headerlink" href="#how-many-attempts-are-allowed-for-each-assessment" title="Link to this heading">#</a></h3>
@@ -668,9 +661,9 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/C769-ROM3
 <h3>Are there any cohorts? I don’t see where to sign-up on my COS page.<a class="headerlink" href="#are-there-any-cohorts-i-don-t-see-where-to-sign-up-on-my-cos-page" title="Link to this heading">#</a></h3>
 <p>Yes, cohorts run regularly. Enrollment typically opens on Mondays and closes on Wednesdays. You can find the link to sign up under the <em>Explore Cohort</em> section on your C769 COS page. If the section is not visible, either enrollment has closed, or the cohort will not be available that week. See <a class="reference internal" href="#resources:cohort"><span class="xref myst">Webinars and Cohorts</span></a>.</p>
 </section>
-<section id="should-i-check-the-irb-statement-on-the-approval-form">
-<h3>Should I check the IRB statement on the approval form?<a class="headerlink" href="#should-i-check-the-irb-statement-on-the-approval-form" title="Link to this heading">#</a></h3>
-<p>You only need to apply for IRB review if you are collecting data involving human participants (this is rarely needed). Otherwise, your project is in IRB compliance. For more details, see <a class="reference external" href="https://cm.wgu.edu/t5/Frequently-Asked-Questions/WGU-IRB-and-Human-Subject-Protections-FAQ/ta-p/2002">WGU IRB and Human Subject Protections FAQ</a>.</p>
+<section id="how-should-i-answer-the-human-subjects-research-question">
+<h3>How should I answer the human-subjects research question?<a class="headerlink" href="#how-should-i-answer-the-human-subjects-research-question" title="Link to this heading">#</a></h3>
+<p>Answer <strong>No</strong> unless you plan to collect data directly from human participants (interviews, surveys, etc.) — which is rarely needed for an IT capstone. Reading academic papers or citing studies is <em>not</em> human-subjects research. If you do answer <strong>Yes</strong>, contact your course instructor before submitting so we can coordinate IRB review. For more details, see <a class="reference external" href="https://cm.wgu.edu/t5/Frequently-Asked-Questions/WGU-IRB-and-Human-Subject-Protections-FAQ/ta-p/2002">WGU IRB and Human Subject Protections FAQ</a>.</p>
 </section>
 </section>
 <section id="questions-comments-or-suggestions">
@@ -743,32 +736,33 @@ Task 3: <a class="reference external" href="https://github.com/ashejim/C769-ROM3
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
     <i class="fa-solid fa-list"></i> Contents
   </div>
-  <nav class="bd-toc-nav page-toc">
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#choosing-a-topic">Choosing a Topic</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#topic-approval">Topic Approval</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#waiver-form">Waiver Form</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#submitting-the-approval-form">Submitting the Approval Form</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#restricted-information-authorization-form">Restricted Information Authorization Form</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#faq">FAQ</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#do-i-need-to-set-up-an-appointment-to-get-approval">Do I need to set up an appointment to get approval?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#do-i-need-to-set-up-an-appointment-before-submitting">Do I need to set up an appointment before submitting?</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-if-i-start-writing-task-2-and-want-to-change-things-do-i-need-to-resubmit-task-1">What if I start writing task 2 and want to change things? Do I need to resubmit task 1?</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#can-i-use-projects-from-other-wgu-courses">Can I use projects from other WGU courses?</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-do-i-add-my-signature-to-the-forms">How do I add my “signature” to the forms?</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-common-reasons-for-task-1-being-returned">What are the common reasons for task 1 being returned?</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-many-attempts-are-allowed-for-each-assessment">How many attempts are allowed for each assessment?</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-a-hard-it-deliverable">What is a hard IT deliverable?</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#can-i-get-the-welcome-email">Can I get the “welcome email?”</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#are-there-any-cohorts-i-don-t-see-where-to-sign-up-on-my-cos-page">Are there any cohorts? I don’t see where to sign-up on my COS page.</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#should-i-check-the-irb-statement-on-the-approval-form">Should I check the IRB statement on the approval form?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-should-i-answer-the-human-subjects-research-question">How should I answer the human-subjects research question?</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions-comments-or-suggestions">Questions, comments, or suggestions?</a></li>
@@ -820,8 +814,8 @@ By Dr. Jim Ashe
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
 
   <footer class="bd-footer">
   </footer>
