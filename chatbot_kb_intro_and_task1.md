@@ -4,7 +4,7 @@ Welcome! The IT capstone is a written project demonstrating competency in your f
 
 The capstone includes three parts:
 
-1. **Task One:** Get course instructor topic approval -a preliminary step to ensure you start in the right direction.
+1. **Task One:** Submit a short topic approval form to Assessments -a preliminary step to ensure you start in the right direction. Your course instructor will pass it or return it with comments.
 2. **Task two:** The Proposal -a detailed paper describing a client's problem and how you will implement an IT solution to solve it. Most of your work will be here.
 3. **Task three:** The Conclusion Report -a detailed paper describing the concluded project proposed in task two. Most of task three repeats task two.
 
@@ -99,11 +99,10 @@ Nearing the end of your term? See the [pacing guide and the Accelerated Plan vid
 (task1:chooseatopic)=
 ## Choosing a Topic
 
-The approval form ensures you start in the right direction before investing time and effort into task 2. Evaluators look for our ([instructors'](ci_page)) signature, and we look for the following:
+The approval form confirms a viable topic before you invest time and effort into task 2. A topic is approved when it has the following:
 
-1. *Relation* to your degree emphasis.
-2. A *specific* client and problem (you can fabricate a client whose problem needs your chosen solution.)
-3. The implementation of a [hard IT deliverable](task1:faq:hard) that helps solve that problem.
+1. A *specific* client with a problem solvable by technology (you can fabricate a client whose problem needs your chosen solution.)
+2. A plan to implement at least one [hard IT deliverable](task1:faq:hard) that helps solve that problem.
 
 ```{margin} What is a hard IT deliverable?
 A  *hard IT deliverable* is a physical or digital technological improvement to the client's environment. Examples include any hardware or software installation or updates. *Soft deliverables*, e.g., training, policies, evaluation, etc., can (and often should) be included but cannot meet the requirements alone. 
@@ -132,37 +131,38 @@ For a more down-to-earth example of what's required, see these [tasks 1-3 exampl
 
 (task1:topicapproval)=
 
-## Topic Approval
+## Submitting the Approval Form
 
-Once you've decided on a topic, complete the approval form following the template:
+Once you've decided on a topic, complete the approval form and submit it directly to Assessments as your Task 1. The form has four short sections:
+
+1. **The Client and the Problem.** Name a specific client (real or fabricated) and describe their problem in 2-4 sentences.
+2. **The IT Solution.** Identify the hardware or software to be installed, built, or upgraded as a permanent part of the client's environment. 2-4 sentences.
+3. **Supporting Soft Deliverables (optional).** Training, policies, or documentation that accompany the IT solution. Optional — leave blank if none.
+4. **Student Certification.** Three Yes/No questions that must all be answered: whether you understand the project requirements; whether your project involves human-subject research (if **Yes**, contact your course instructor before submitting); and whether your project uses restricted or proprietary information from an employer or third party (if **Yes**, also submit the [Restricted Information Authorization Form](task1:waiverform)).
 
 > [![Thumbnail of the Topic Approval Form](https://github.com/ashejim/C769/blob/main/url_images/C769_t1_approval.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/ES7B62K50FpKhgSwOZxgRVcByPT8r6oIWJDFrcpzpPNbqw?e=qWyM4D)
 
-Include a rough outline of your client, their problem(s), and your IT plan to fix it. **Email the completed form to** **[your course instructor](ci_page)** who will either approve it with their signature or provide feedback.
-
 ```{note}
-The topic approval form must be *signed by a* *[C769 course instructor](ci_page)*. Forms without a signature are automatically returned without further review.  
+You **submit the completed form directly to Assessments** as your Task 1. There is no email-to-instructor or signature step. Your course instructor (or, in the future, an evaluator) will pass your submission or return it with comments for revision. This mirrors how Tasks 2 and 3 are submitted.
 ```
 
-Directly emailing your assigned course instructor is the fastest and often best way to get a signature. Whether emailing [ugcapstoneit@wgu.edu](mailto:ugcapstoneit@wgu.edu?cc=my%20course%20instructor&subject=C769:%20capstone%20topic%20approval&body=Your%20name%20and%20question%20here.%20We%20can%20only%20respond%20to%20messages%20from%20a%20valid%20WGU%20email%20address.%20%0A%0ADegree%20program%3A%20%0AProgram%20Mentor%3A%20%0A) or your CI directly, always practice professional communication:
+If you have questions about your topic *before* submitting, you can still email [your course instructor](ci_page) or the team inbox [ugcapstoneit@wgu.edu](mailto:ugcapstoneit@wgu.edu?cc=my%20course%20instructor&subject=C769:%20capstone%20topic%20question&body=Your%20name%20and%20question%20here.%20We%20can%20only%20respond%20to%20messages%20from%20a%20valid%20WGU%20email%20address.%20%0A%0ADegree%20program%3A%20%0AProgram%20Mentor%3A%20%0A). When you do, always practice professional communication:
 
 - Use your WGU email.
-- Provide a subject, your capstone course, and your program mentor's name (if not in your signature)
+- Provide a subject, your capstone course, and your program mentor's name (if not in your signature).
 - Clearly state your questions or requests.
-
-You only need to apply for IRB review if you are collecting data involving human participants (this is rarely needed). Otherwise, your project is in IRB compliance, and you should out a $\checkmark$ next to the IRB statement. For more details see [WGU IRB and Human Subject Protections FAQ](https://cm.wgu.edu/t5/Frequently-Asked-Questions/WGU-IRB-and-Human-Subject-Protections-FAQ/ta-p/2002).
 
 (task1:waiverform)=
 
-## Waiver Form
+## Restricted Information Authorization Form
 
 <!-- Everyone must submit a waiver form stating either their project is not based on restricted information OR use of any restricted information is authorized. -->
 
 ```{note}
-The waiver form is **only** required if your project includes restricted information. If no waiver form is submitted, Task 1 *B: Capstone Release Form*, passes automatically.
+This form is **only** required if you answered **Yes** to Student Certification question 3 (your project uses restricted or proprietary information from an employer or third party). If your project does not use restricted information, you do not need this form, and Task 1 *B: Restricted Information Authorization Form* passes automatically.
 ```
 
-In most cases, obtaining authorization can be avoided by fabricating or masking identifying information. But if you choose to move forward using restricted information, you must obtain documented permissions and submit them along with a waiver form to Assessments.
+In most cases, obtaining authorization can be avoided by fabricating or masking identifying information. But if you choose to move forward using restricted information, you must obtain documented permissions and submit them along with this form to Assessments.
 
 > [![Thumbnail of the Waiver Form](https://github.com/ashejim/C769/blob/main/url_images/769_waiver_form_thumb-1.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EUNAmf7lWqxOmKBLWTQ_zPcByoxrOLLK5sILQeeUoeYGeQ?e=9d1Ef7)
 
@@ -174,9 +174,9 @@ In most cases, obtaining authorization can be avoided by fabricating or masking 
 
 ## FAQ
 
-### Do I need to set up an appointment to get approval?
+### Do I need to set up an appointment before submitting?
 
-No. Usually, students email the approval form to their instructor. We then sign the form or follow up with questions. However, if you have questions about the requirements or difficulty choosing a topic, you are encouraged to set up an appointment with [your course instructor](ci_page). A 15-30 minute phone call can address most questions or concerns. If you do set up an appointment to discuss your approval form, please email it to the instructor before the appointment.
+No. Most students fill out the approval form and submit it directly to Assessments — there's no instructor review step in advance. However, if you have questions about the requirements or difficulty choosing a topic, you are encouraged to set up an appointment with [your course instructor](ci_page). A 15-30 minute phone call can address most questions or concerns *before* you submit.
 
 ### What if I start writing task 2 and want to change things? Do I need to resubmit task 1?
 
@@ -186,16 +186,12 @@ No. Minor changes from task 1 to task 2 are expected and allowed *without updati
 
 Yes! You can use any of your work or academic projects (at WGU or elsewhere) provided no proprietary information is used without permission. Don't worry about self-plagiarism, as the similarity check will identify and ignore it. Just as in reusing work projects, expect to modify and remold past academic assignments to meet the rubric requirements.
 
-### Do I need an "electronic signature" as specified in the official rubric?
-
-You can type in your name, use a "fancy" font, or insert an image of your signature.  
-
 ### What are the common reasons for task 1 being returned?
 
-1. No instructor signature on the approval form. You need to send it to us and get a signature *before* submitting it. Both boxes or no boxes are correctly marked on the waiver form. *Mark one and only one box*.
-2. Both or neither box is marked on the waiver form. Mark one and only one box. See the [waiver form instructions](task1:waiver)
-
-Note, the waiver form is **only** required if your project includes restricted information. Task 1 *B: Capstone Release Form*, passes automatically if no waiver form is submitted, i.e., the waiver is only needed if it's needed.
+1. **No specific client.** The Client and the Problem section must name a specific client (real or fabricated — "Company X, a 40-person regional accounting firm" is fine). "A small business" or "an organization" is too generic.
+2. **No hard IT deliverable.** The IT Solution section must name specific hardware or software to be installed, built, or upgraded as a permanent part of the client's environment. Training, policies, assessments, audits, or recommendations alone aren't enough.
+3. **Student Certification questions left blank.** All three Yes/No questions must be answered before submission.
+4. **Restricted information without the form.** If you answered **Yes** to Student Certification question 3, you must also submit the [Restricted Information Authorization Form](task1:waiverform).
 
 ### How many attempts are allowed for each assessment?
 
@@ -217,6 +213,6 @@ Yes, contact your assigned course instructor or see the sample [welcome email](r
 
 Yes, cohorts run regularly. Enrollment typically opens on Mondays and closes Wednesdays. You can find the link to sign-up under the *Explore Cohort* section on your C769 COS page. If the section is not visible, either enrollment has closed or the cohort will not be available that week. See [Webinars and Cohorts](resources:cohort) for more details.
 
-### Should I check the IRB statement on the approval form?
+### How should I answer the human-subject research question?
 
-You only need to apply for IRB review if you are collecting data involving human participants (this is rarely needed). Otherwise, your project is in IRB compliance. For more details see [WGU IRB and Human Subject Protections FAQ](https://cm.wgu.edu/t5/Frequently-Asked-Questions/WGU-IRB-and-Human-Subject-Protections-FAQ/ta-p/2002).
+Answer **No** unless you plan to collect data directly from human participants (interviews, surveys, etc.) — which is rarely needed for an IT capstone. Reading academic papers or citing studies is *not* human-subject research. If you do answer **Yes**, contact your course instructor before submitting so we can coordinate IRB review. For more details see [WGU IRB and Human Subject Protections FAQ](https://cm.wgu.edu/t5/Frequently-Asked-Questions/WGU-IRB-and-Human-Subject-Protections-FAQ/ta-p/2002).

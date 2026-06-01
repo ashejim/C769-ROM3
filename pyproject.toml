@@ -1,0 +1,16 @@
+[project]
+name = "c769-rom3-book"
+version = "0.0.0"
+description = "Build/publish environment for the C769-ROM3 Jupyter Book site."
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    # Pin to the classic Sphinx-based Jupyter Book (1.x). Do NOT allow 2.x — that is the
+    # MyST/mystmd rewrite and will not build this _config.yml/_toc.yml-style book.
+    "jupyter-book>=1.0,<2",
+    "ghp-import>=2.1",
+]
+
+# This project only manages the build environment; it is not itself an installable
+# package, so tell uv not to try to build/install it as one.
+[tool.uv]
+package = false

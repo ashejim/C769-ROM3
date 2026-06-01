@@ -1,0 +1,8 @@
+# uv / Python virtual environment — recreated locally via `uv sync`, never committed
+.venv/
+__pycache__/
+*.pyc
+
+# editor / build cruft
+.history/
+.ipynb_checkpoints/
