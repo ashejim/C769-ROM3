@@ -11,7 +11,7 @@
 One of your most important resources is your assigned faculty, who will actively monitor your progress and offer one-on-one advice. Your instructor can discuss your progress, help you understand and fulfill the requirements, give you tools to successfully navigate the capstone, and help you revise returned submissions. Throughout your engagement with this course, it is expected that you continue communicating with your program mentor. Your program mentor will help you set weekly study goals, recommend specific learning materials, and tell you what to expect in this course and how it aligns with your program’s competencies.
 
 ```{note}
-Approval forms should be sent to your *assigned course instructor.* If they are out of the office for more than two days or no instructor has yet assigned, contact:
+Submit your completed approval form directly to Assessments as your Task 1 — there is no email-to-instructor or signature step. If you have questions about your topic *before* submitting, contact your *assigned course instructor.* If they are out of the office for more than two days or no instructor has yet been assigned, contact:
 [ugcapstoneit@wgu.edu](mailto:ugcapstoneit@wgu.edu?cc=Your%20course%20instructor&subject=C769:%20capstone%20topic%20approval&body=Your%20name%20and%20question%20here.%20We%20can%20only%20respond%20to%20messages%20from%20a%20valid%20WGU%20email%20address.%20%0A%0ADegree%20program%3A%20%0AProgram%20Mentor%3A%20%0A)
 ```
 

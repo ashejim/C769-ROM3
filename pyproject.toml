@@ -8,6 +8,8 @@ dependencies = [
     # MyST/mystmd rewrite and will not build this _config.yml/_toc.yml-style book.
     "jupyter-book>=1.0,<2",
     "ghp-import>=2.1",
+    # Required by _config.yml -> sphinx.extra_extensions (sphinx_sitemap)
+    "sphinx-sitemap>=2.5",
 ]
 
 # This project only manages the build environment; it is not itself an installable

@@ -42,6 +42,12 @@ FOR /d /r . %%d IN (.history) DO @IF EXIST "%%d" rd /s /q "%%d"
 
 @REM Build the Jupyter Book in the uv environment (current folder is the book root)
 uv run jupyter-book build .
+if errorlevel 1 (
+  echo.
+  echo *** Jupyter Book build FAILED - nothing will be committed or published. Fix the errors above and re-run. Aborting. ***
+  pause
+  exit /b 1
+)
 echo "Compiled %~dp0"
 
 @REM Commit + push source to GitHub (main), then publish _build/html to gh-pages
