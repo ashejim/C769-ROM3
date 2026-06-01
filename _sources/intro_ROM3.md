@@ -76,19 +76,9 @@ Task 3 details {fas}`arrow-right`
 
 ## Start Here
 
-<!-- src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=e26949a3-9e24-4092-bf52-aedb014e2527&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" -->
-
 First, understand the project's requirements. What they are -and what they aren't. Watch the following video:
-<iframe
-    src = "https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=05211a31-2088-4fe1-919f-b1ff0132a6c4&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all"
-    title="C769 Overview"
-    width="640px"
-    height="360px"
-    style="border: 1px solid #464646;"
-    allowfullscreen allow="autoplay"
-    alt= "Title screen for the welcome video."
->
-</iframe>
+
+{{ intro_video }}
 
 To meet the requirements of Tasks 2 and 3, your topic (Task 1) must have the following:
 
