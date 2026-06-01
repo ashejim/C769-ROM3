@@ -6,8 +6,8 @@
 (task3:template)=
 Write your conclusion report following the template, **Task 3: The Conclusion**:
 <!-- > [![Thumbnail imgae of Task 3: the Conclusion template](https://github.com/ashejim/C769-ROM3/blob/main/url_images/t3_template_thumb.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EW62ZDmF6pdJo3_oD5CUoSUB3iblGUYaZ4qACCEchHueXA?e=JuNZfp) -->
-> [Task 3 Template](https://1drv.ms/w/s!Av4KQnJfiBxmiLwH7AiFKJnNY4sqOQ?e=CrMZGa) `.docx` format
-> [Task 3 Template](https://1drv.ms/w/s!Av4KQnJfiBxmiL8tEpsUgYDjPJ6UIA?e=cOduyA) `.odt` format
+> {{ task3_temp }}
+> {{ task3_temp_odt }}
 
 To gauge the level of detail evaluators typically expect, review these [task 3 examples](resources:examples).
 
@@ -16,11 +16,10 @@ To gauge the level of detail evaluators typically expect, review these [task 3 e
 ::::{sidebar}
 
 **Watch**
-<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=5286bdf6-43c4-479e-8135-72922ac3f6bf&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" title="G and H: Timeline & Outcome" frameborder="0" style="border: 1px solid #464646;" class="center" allowfullscreen allow="autoplay" alt= "Title screen for the video.">
-</iframe>
+{{ task3_video }}
 
 **Listen**
-IT Audio Series podcast [Converting Task 2 to Task 3](https://d2y36twrtb17ty.cloudfront.net/sessions/a96a8bee-7aef-4777-8964-ac9400174e42/0cb7de42-4057-45d6-9282-ac9400174e5b-436eb412-8cec-4cfb-992b-ac9400178e7b.mp4?invocationId=aae81915-bee9-ed11-828e-12b1cb861383); view the [transcript](https://www.wgu.edu/content/dam/western-governors/documents/it/audio-series/ConvertingTask2toTask3.docx).
+IT Audio Series podcast {{ task3_converting_audio }}; view the {{ task3_converting_audio_transcript }}.
     :::{Warning}
         We creaetd this video and podcast for version ROM2. See the ROM3 changes below.
     :::
@@ -176,7 +175,7 @@ If reusing materials from an open source or actual project, mask any identifying
 
 ## J and K: Sources and Professional Communication
 
-It's easy to overlook them when focusing on content, but grammar, sources, and APA formatting are the most common reasons for rejected submissions! Check your grammar using [Grammarly.com](https://cm.wgu.edu/t5/Academic-Coaching-Center/I-Need-Help-with-Professional-Communication/ta-p/23355) ![grammarly_icon](https://github.com/ashejim/C769-ROM3/blob/main/url_images/icon-grammarly.png?raw=true#icon) (it's what the evaluators use). Get your [FREE Gramamrly education license](https://www.grammarly.com/edu/western-governors-university) through WGU.  
+It's easy to overlook them when focusing on content, but grammar, sources, and APA formatting are the most common reasons for rejected submissions! Check your grammar using the {{ grammarly_edu }} ![grammarly_icon](https://github.com/ashejim/C769-ROM3/blob/main/url_images/icon-grammarly.png?raw=true#icon); this grammar checker is the preferred tool. Get your [FREE Gramamrly education license](https://www.grammarly.com/edu/western-governors-university) through WGU.  
 
 Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) can prevent competency in *Professional Communication*.
 
@@ -186,7 +185,7 @@ Grammar is now assessed using AI. Do not copy and paste from the Grammarly app i
 
 For more details, see:
 
--[Help with Professionl Commnication](https://cm.wgu.edu/t5/Academic-Coaching-Center/I-Need-Help-with-Professional-Communication/ta-p/23355)
+-{{ prof_comm_help }}
 
 Sources and format should consistenely follow a recognized academic writing style. We recommend [APA $7^{\text{th}}$ edition guidelines](https://apastyle.apa.org). Outside of grammar mistakes, most style errors involve formatting of the sources or in-text citations. For APA, in-text citations should be of the form `(Author, year)`. For more details, see [APA guidelines for citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
 

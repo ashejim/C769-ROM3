@@ -9,9 +9,7 @@
 **Submission process update.** Task 1 is no longer signed and returned by your course instructor. **Fill out the approval form and submit it directly to Assessments** as your Task 1. Your course instructor (or, in the future, an evaluator) will either pass your submission or return it with comments for revision. This mirrors how you submit Tasks 2 and 3. The video below was recorded under the previous process — the topic guidance still applies, but ignore the instructions about emailing or signing the form.
 ```
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%">
-	<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=6e1e1424-d74b-4c98-b965-b35501196759&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" style="border: 1px solid #464646; position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="C769 Capstone Task 1: topic Approval" alt= "Title screen for the video." width="640px" height="360px"></iframe>
-</div>
+{{ task1_video }}
 
 (task1:chooseatopic)=
 ## Choosing a Topic
@@ -59,22 +57,22 @@ Your project must focus on implementing technology to solve a client’s problem
 
 ### Examples
 
-The [Capstone Excellence Archive](https://westerngovernorsuniversity.sharepoint.com/sites/capstonearchives/excellence/Pages/UndergraduateInformation.aspx) includes a wide range of completed projects to review. However, remember that they all are, by definition, *above and beyond* the requirements. Therefore, do not use these as examples of what's needed to meet the requirements.
+The {{ excellence_archive }} includes a wide range of completed projects to review. However, remember that they all are, by definition, *above and beyond* the requirements. Therefore, do not use these as examples of what's needed to meet the requirements.
 
 For a more down-to-earth example of what's required, see these examples: 
 <!-- [task 1 examples](resources:examples) -->
 `````{tab-set}
 ````{tab-item} Example set 1
 **Topic:** Modern Security Information and Event Management (SIEM) Systems
-> Task 1: [Topic approval form example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample1_C769_ROM3_Task1.pdf)  
-> Task 2: [Project proposal example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample1_C769_ROM3_Task2.pdf)  
-> Task 3: [Project report example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample1_C769_ROM3_Task3.pdf)
+> Task 1: {{ task1_example1 }}  
+> Task 2: {{ task2_example1 }}  
+> Task 3: {{ task3_example1 }}
 ````
 ````{tab-item} Example set 2
 **Topic:** Security Evaluation and Upgrade
-> Task 1: [Topic approval form example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample2_C769_ROM3_Task1.pdf)  
-> Task 2: [Project proposal example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample2_C769_ROM3_Task2.pdf)  
-> Task 3: [Project report example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample2_C769_ROM3_Task3.pdf)
+> Task 1: {{ task1_example2 }}  
+> Task 2: {{ task2_example2 }}  
+> Task 3: {{ task3_example2 }}
 :::{note}
 The security upgrades, not the evaluation, are what's necessary to meet the requirements. 
 :::
@@ -91,18 +89,9 @@ If you see `Unable to render code block` when attempting to view the examples, o
 This video was recorded before the current submission process. Topic-selection guidance still applies; disregard the email/signature workflow.
 :::
 
-<iframe
-    src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=d8678068-8f7e-44fb-be19-b1f7010addf6&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all"
-    title="Choosing a topic"
-    width="640px"
-    height="360px"
-    style="border: 1px solid #464646;"
-    allowfullscreen allow="autoplay"
-    alt= "Title screen for video: the proposal."
->
-</iframe>
+{{ task1_topic_idea_video }}
 
-**Listen:** IT Audio Series podcast [Choosing Your Topic](https://d2y36twrtb17ty.cloudfront.net/sessions/09c3d32b-1567-4636-88d6-ad5f01616619/3183eabf-4239-4e4a-ae20-ad5f01616620-8792ef88-6d24-43f6-9fe9-ad5f01619cc7.mp4?invocationId=0275eb54-33e0-eb11-8284-12c206d2fd2b); view the [transcript](https://www.wgu.edu/content/dam/western-governors/documents/it/audio-series/ChoosingYourTopic.docx).
+**Listen:** IT Audio Series podcast {{ task1_choosing_topic_audio }}; view the {{ task1_choosing_topic_audio_transcript }}.
 
 Though still relevant, we created this video for ROM2 -not ROM3.
 
@@ -120,8 +109,9 @@ Once you've decided on a topic, complete the approval form and submit it directl
    - Whether your project involves human-subject research. If **Yes**, [contact your course instructor](ci_page) before submitting.
    - Whether your project uses restricted or proprietary information from an employer or third party. If **Yes**, also submit the [Restricted Information Authorization Form](task1:waiverform).
 
-<!-- TODO: Replace the linked form below with the new C769 Task 1 Approval Form once it's hosted in the GitHub repo. The new form is in new_Task 1_resources/C769/New C769_Task1_Approval_Form.docx. -->
-> [Topic Approval Form Template (docx)](https://raw.github.com/ashejim/C769-ROM3/main/resources/C769_ROM3_IT%20Capstone%20Topic%20Approval%20Form%20.docx)
+> {{ task1_temp }}
+>
+> {{ task1_temp_odt }}
 
 ```{note}
 You **submit the completed form directly to Assessments** as your Task 1. There is no email-to-instructor or signature step. Your course instructor (or, in the future, an evaluator) will pass your submission or return it with comments for revision. This mirrors how Tasks 2 and 3 are submitted.
@@ -145,9 +135,9 @@ In most cases, obtaining authorization can be avoided by fabricating or masking 
 
 <!-- > [![Thumbnail of the Waiver Form](https://github.com/ashejim/C769-ROM3/blob/main/url_images/769_waiver_form_thumb-1.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EUNAmf7lWqxOmKBLWTQ_zPcByoxrOLLK5sILQeeUoeYGeQ?e=9d1Ef7) -->
 
-> [Waiver Form docx format](https://raw.github.com/ashejim/C769-ROM3/main/resources/C769_IT%20Capstone%20Project%20Restricted%20Information%20Authorization%20Form.docx)
+> {{ waiver_form }}
 >
-> [Waiver Form odt format](https://raw.github.com/ashejim/C769-ROM3/main/resources/C769_IT%20Capstone%20Project%20Restricted%20Information%20Authorization%20Form.odt)
+> {{ waiver_form_odt }}
 
 <!-- :::{note}
 ![waiver checkbox](../C769-ROM3/url_images/waiver-check-1box.png)
@@ -197,7 +187,7 @@ Yes, cohorts run regularly. Enrollment typically opens on Mondays and closes on 
 
 ### How should I answer the human-subjects research question?
 
-Answer **No** unless you plan to collect data directly from human participants (interviews, surveys, etc.) — which is rarely needed for an IT capstone. Reading academic papers or citing studies is *not* human-subjects research. If you do answer **Yes**, contact your course instructor before submitting so we can coordinate IRB review. For more details, see [WGU IRB and Human Subject Protections FAQ](https://cm.wgu.edu/t5/Frequently-Asked-Questions/WGU-IRB-and-Human-Subject-Protections-FAQ/ta-p/2002).
+Answer **No** unless you plan to collect data directly from human participants (interviews, surveys, etc.) — which is rarely needed for an IT capstone. Reading academic papers or citing studies is *not* human-subjects research. If you do answer **Yes**, contact your course instructor before submitting so we can coordinate IRB review. For more details, see {{ irb_faq }}.
 
 ## Questions, comments, or suggestions?
 

@@ -1,13 +1,13 @@
 # Task 2
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%">
-	<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=558c47b5-dcdd-4b0f-b9b3-b3b80158520b&autoplay=false&offerviewer=false&showtitle=true&showbrand=true&captions=true&interactivity=all" style="border: 1px solid #464646; position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="C769: Quick overview of Task 2."></iframe>
-</div>
+{{ task2_video }}
 
 Write your proposal following **Task 2: The Proposal template**:
 <!-- > [![Thumbnail image of the Task 2: the Proposal template](https://github.com/ashejim/C769-ROM3/blob/main/url_images/t2_template_thumb.png?raw=true#image-thumb)](https://westerngovernorsuniversity-my.sharepoint.com/:w:/g/personal/jim_ashe_wgu_edu/EXQpEzeuOBhBnfhO15di-mQBXkj592jBHZ0ceFGcdVdvJA) -->
 
-> [Task 2: The Proposal Template](https://1drv.ms/w/s!Av4KQnJfiBxmiKN4CBSdGCJ-JmrdLA?e=BeAQhU)
+> {{ task2_temp }}
+>
+> {{ task2_temp_odt }}
 
 To gauge the level of detail evaluators typically expect, see the [task 2 examples](resources:examples).
 
@@ -60,8 +60,7 @@ Most must be written in a narrative style with complete sentences and paragraphs
 ## A: Proposal Overview
 
 :::{sidebar} Watch
-<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=2e0255f6-cce4-4f67-ae85-b1f7010acea8&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" title="A1, A2, anb A3: The Proposal" style="border: 1px solid #464646;" class="center" allowfullscreen allow="autoplay" alt= "Title screen for video.">
-</iframe>
+{{ task2_a_video }}
 We created this video for ROM2, but it is still relevant for ROM3.
 :::
 
@@ -106,8 +105,7 @@ Though A1-A3a are overview sections, they are often returned for being too brief
 ## B and B1: Review of Other Work & Works Informing Design
 
 :::{sidebar} Watch
-<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=58126a92-852e-4167-9041-b1f7010aceb1&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" title="B and B1: Other Works" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" class="center" alt= "Title screen for video.">
-</iframe>
+{{ task2_b_video }}
 We created this video for ROM2, but it is still relevant for ROM3.
 :::
 
@@ -127,7 +125,7 @@ The work is not expected to be a one-to-one match for your project. What's accep
 :::
 
 :::{tip}
-You can search [WGU's library](https://wgu.libguides.com/friendly.php?s=library) and other open-source libraries using [google.scholar.com](https://scholar.google.com/) Go to >'Google.scholar>setting>libraires>'
+You can search {{ wgu_library }} and other open-source libraries using [google.scholar.com](https://scholar.google.com/) Go to >'Google.scholar>setting>libraires>'
 and then add WGU and other libraries.
 
 <img src="https://github.com/ashejim/C769-ROM3/blob/main/url_images/google_scholar_demo.gif?raw=true" height="300px" alt= "An aninmated GIF demonstrating how to use google.scholar.com"/>
@@ -151,8 +149,7 @@ For this section, do the following:  
 ## E: Methodology
 
 :::{sidebar} Watch
-<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=9b321f2f-398a-41ee-b3b3-ad9e00f0bdfd&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" title="E and F: Methodology & Goals" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" class ="center" alt= "Title screen for the video.">
-</iframe>
+{{ task2_ef_video }}
 We created this video for ROM2, but it is relevant to this version, ROM3.
 :::
 
@@ -267,8 +264,7 @@ At a minimum, there should be one goal, each goal should have two objectives, an
 ## G: Project Timeline with Milestones
 
 :::{sidebar} Watch
-<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=03a125ec-f1f1-4ab3-8095-b1f7010ad90c&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" title="G and H: Timeline & Outcome" frameborder="0" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" class ="center" alt= "Title screen for the video.">
-</iframe>
+{{ task2_gh_video }}
 We created this video for ROM2. It is relevant to ROM3 except for the 'Outcomes' segment.
 :::
 
@@ -302,11 +298,11 @@ Time-based metrics work best, for example:
 
 ## Professional Communication and Sources
 
-It's easy to overlook them when focusing on content, but grammar, sources, and APA formatting are the most common reasons for rejected submissions! Check your grammar using [Grammarly.com](https://cm.wgu.edu/t5/Academic-Coaching-Center/I-Need-Help-with-Professional-Communication/ta-p/23355) ![grammarly_icon](https://github.com/ashejim/C769-ROM3/blob/main/url_images/icon-grammarly.png?raw=true#icon) (it's what the evaluators use). Get your [FREE Gramamrly education license](https://www.grammarly.com/edu/western-governors-university) through WGU.  
+It's easy to overlook them when focusing on content, but grammar, sources, and APA formatting are the most common reasons for rejected submissions! Check your grammar using the {{ grammarly_edu }} ![grammarly_icon](https://github.com/ashejim/C769-ROM3/blob/main/url_images/icon-grammarly.png?raw=true#icon); this grammar checker is the preferred tool. Get your [FREE Gramamrly education license](https://www.grammarly.com/edu/western-governors-university) through WGU.  
 
 Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) can prevent competency in *Professional Communication*. For more details, see:
 
--[Help with Professionl Commnication](https://cm.wgu.edu/t5/Academic-Coaching-Center/I-Need-Help-with-Professional-Communication/ta-p/23355)
+-{{ prof_comm_help }}
 
 Sources and format should consistenely follow a recognized academic writing style. We recommend [APA $7^{\text{th}}$ edition guidelines](https://apastyle.apa.org). Outside of grammar mistakes, most style errors involve formatting of the sources or in-text citations. For APA, in-text citations should be of the form `(Author, year)`. For more details, see [APA guidelines for citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
 

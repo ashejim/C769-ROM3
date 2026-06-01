@@ -21,15 +21,15 @@ These examples are on-par with average passing tasks. Use them as a guideline fo
 `````{tab-set}
 ````{tab-item} Example set 1
 **Topic:** Modern Security Information and Event Management (SIEM) Systems
-> Task 1: [Topic approval form example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample1_C769_ROM3_Task1.pdf)  
-> Task 2: [Project proposal example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample1_C769_ROM3_Task2.pdf)  
-> Task 3: [Project report example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample1_C769_ROM3_Task3.pdf)
+> Task 1: {{ task1_example1 }}  
+> Task 2: {{ task2_example1 }}  
+> Task 3: {{ task3_example1 }}
 ````
 ````{tab-item} Example set 2
 **Topic:** Security Evaluation and Upgrade
-> Task 1: [Topic approval form example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample2_C769_ROM3_Task1.pdf)  
-> Task 2: [Project proposal example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample2_C769_ROM3_Task2.pdf)  
-> Task 3: [Project report example](https://github.com/ashejim/C769-ROM3/raw/main/resources/examples/Sample2_C769_ROM3_Task3.pdf)
+> Task 1: {{ task1_example2 }}  
+> Task 2: {{ task2_example2 }}  
+> Task 3: {{ task3_example2 }}
 :::{note}
 The security upgrades, not the evalaution, is what's necessary to meet the requriements. 
 :::
@@ -40,7 +40,7 @@ The security upgrades, not the evalaution, is what's necessary to meet the requr
 
 ### Excellence Archive
 
-The [Capstone Excellence Archive](https://westerngovernorsuniversity.sharepoint.com/sites/capstonearchives/excellence/Pages/UndergraduateInformation.aspx) includes a wide range of completed conclusion reports (task 3). When reviewing archived capstones, keep in mind that they all are, by definition, *above and beyond* the requirements. Therefore, do not use these as examples of what's needed to meet the requirements. For a more down-to-earth example of what's required, see the above [Examples](resources:examples) section. Note that the archive has all recognized C769 capstones are categorized as *BS Information Technology* regardless of degree emphasis.
+The {{ excellence_archive }} includes a wide range of completed conclusion reports (task 3). When reviewing archived capstones, keep in mind that they all are, by definition, *above and beyond* the requirements. Therefore, do not use these as examples of what's needed to meet the requirements. For a more down-to-earth example of what's required, see the above [Examples](resources:examples) section. Note that the archive has all recognized C769 capstones are categorized as *BS Information Technology* regardless of degree emphasis.
 
 <!-- #### Podcast
 
@@ -52,33 +52,33 @@ IT Audio Series podcast [Converting Task 2 to Task 3](https://d2y36twrtb17ty.clo
 
 ### WGU Coaching Center Writing Help
 
-- [WGU Writing Help Appointments](https://westerngovernorsuniversity.sharepoint.com/sites/AcademicCoachingCenter/SitePages/Schedule-An-Appointment-With-An-Academic-Coach.aspx#writing-competency-appointments)
-- [WGU Writing Live Events](https://westerngovernorsuniversity.sharepoint.com/sites/AcademicCoachingCenter/SitePages/Live-Events.aspx#writing-live-events)
-- [WGU Learning Hub: Writing Studio](https://westerngovernorsuniversity.sharepoint.com/sites/AcademicCoachingCenter/SitePages/Library-of-Articles-for-Academic-Coaching-Center.aspx#learning-hub-writing-studio)
+- {{ wgu_writing_appointments }}
+- {{ wgu_writing_live_events }}
+- {{ wgu_writing_studio }}
 
 (resources:general:grammar:grammarly)=
 
 ### WGU AI Policies
 
-- [AI Student Policy & Responsible Use Hub](https://westerngovernorsuniversity.sharepoint.com/sites/CredentialIntegrity/SitePages/AI-Policy.aspx?csf=1&web=1&e=7gLO85)
-- [Student Guide ro Using AI at WGU](https://cm.wgu.edu/t5/Frequently-Asked-Questions/Student-Guide-to-Using-AI-at-Western-Governors-University/ta-p/67810)
-- [Use of Artificial Intelligence (AI) Tools](https://cm.wgu.edu/t5/WGU-Student-Policy-Handbook/Use-of-Artificial-Intelligence-AI-Tools/ta-p/67811)
+- {{ ai_policy_hub }}
+- {{ ai_student_guide }}
+- {{ ai_use_policy }}
 
 ### Grammar
 
-Check your grammar using [Grammarly.com](https://www.grammarly.com/) ![grammarly_icon](https://github.com/ashejim/C769-ROM3/raw/main/url_images/icon-grammarly.png?raw=true#icon) (it's what the evaluators use). Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in *Professional Communication*. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.
+Check your grammar using the {{ grammarly_edu }} ![grammarly_icon](https://github.com/ashejim/C769-ROM3/raw/main/url_images/icon-grammarly.png?raw=true#icon); this grammar checker is the preferred tool. Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) will prevent competency in *Professional Communication*. The free side has been sufficient, but if using the online app, you sometimes need to wait before mistakes are caught.
 
 :::{warning}
 Students have reported missed mistakes when using the Google doc Grammarly extension. Therefore, we advise copying content directly into the app or purchasing the premium version compatible with MS Word.
 :::
 
-Get the best writing help from the writing experts: [WGU Writing Center](https://my.wgu.edu/success-centers/writing-center). While Writing Center Instructors cannot say whether a task will pass, they can help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q & A sessions covering a variety of topics which include general writing and grammar help. See a list of upcoming events here: [Writing Center Live Events](https://cm.wgu.edu/t5/Writing-Center-Knowledge-Base/Writing-Center-Live-Events/ta-p/36860) 
+Get the best writing help from the writing experts: {{ wgu_writing_center }}. While Writing Center Instructors cannot say whether a task will pass, they can help you revise your paper to meet WGU competency standards for professional communication, sources, and APA formatting. The Writing Center also offers live Q & A sessions covering a variety of topics which include general writing and grammar help. See a list of upcoming events here: {{ writing_center_live_events }} 
 
 (resources:general:grammar:sources)=
 
 ## Sources and Professional Communication
 
-It's easy to overlook them when focusing on content, but grammar, sources, and APA formatting are the most common reasons for rejected submissions! Check your grammar using [Grammarly.com](https://cm.wgu.edu/t5/Academic-Coaching-Center/I-Need-Help-with-Professional-Communication/ta-p/23355) ![grammarly_icon](https://github.com/ashejim/C769-ROM3/raw/main/url_images/icon-grammarly.png?raw=true#icon) (it's what the evaluators use). Get your [FREE Gramamrly education license](https://www.grammarly.com/edu/western-governors-university) through WGU.  
+It's easy to overlook them when focusing on content, but grammar, sources, and APA formatting are the most common reasons for rejected submissions! Check your grammar using the {{ grammarly_edu }} ![grammarly_icon](https://github.com/ashejim/C769-ROM3/raw/main/url_images/icon-grammarly.png?raw=true#icon); this grammar checker is the preferred tool. Get your [FREE Gramamrly education license](https://www.grammarly.com/edu/western-governors-university) through WGU.  
 
 Style is not assessed (Grammarly marks these in blue, green, or purple), but even a few grammar errors (marked in red) can prevent competency in *Professional Communication*.
 
@@ -88,7 +88,7 @@ Grammar is now assessed using AI. Do not copy and paste from the Grammarly app i
 
 For more details, see:
 
--[Help with Professionl Commnication](https://cm.wgu.edu/t5/Academic-Coaching-Center/I-Need-Help-with-Professional-Communication/ta-p/23355)
+-{{ prof_comm_help }}
 
 Sources and format should consistenely follow a recognized academic writing style. We recommend [APA $7^{\text{th}}$ edition guidelines](https://apastyle.apa.org). Outside of grammar mistakes, most style errors involve formatting of the sources or in-text citations. For APA, in-text citations should be of the form `(Author, year)`. For more details, see [APA guidelines for citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
 
@@ -104,9 +104,9 @@ Get the best help from the [WGU Academic Coaching Center](resources:general:gram
 
 ### Student Resources
 
-- [Academic Coaching Center](https://westerngovernorsuniversity.sharepoint.com/sites/AcademicCoachingCenter). The Coaching Center provides help with writing, Microsoft products, tech, math, and more! 
+- {{ academic_coaching_center }}. The Coaching Center provides help with writing, Microsoft products, tech, math, and more! 
 
-- [Student Resource Hub](https://resource-hub.wgu.edu/)
+- {{ student_resource_hub }}
 
 (resources:general:cohort)=
 
@@ -130,18 +130,18 @@ Email Candice Allen [ugcapstoneit@wgu.edu](mailto:ugcapstoneit@wgu.edu?cc=candic
 
 #### WGU Academic Coaching Center Live Events
 
-- [Writing Live Events](https://westerngovernorsuniversity.sharepoint.com/sites/AcademicCoachingCenter/SitePages/Live-Events.aspx#writing-live-events)
-- [All Live Events](https://westerngovernorsuniversity.sharepoint.com/sites/AcademicCoachingCenter/SitePages/Live-Events.aspx)
+- {{ wgu_writing_live_events }}
+- {{ all_live_events }}
 
 (resources:general:libraries)=
 
 ### Libraries
 
-- [WGU's library](https://wgu.libguides.com/friendly.php?s=library)
+- {{ wgu_library }}
 - [google.scholar.com](https://scholar.google.com/) 
 
 :::{tip}
-You can search [WGU's library](https://wgu.libguides.com/friendly.php?s=library) and other open-source libraries using [google.scholar.com](https://scholar.google.com/) Go to >'Google.scholar>setting>libraires>' and then add WGU and other libraries.
+You can search {{ wgu_library }} and other open-source libraries using [google.scholar.com](https://scholar.google.com/) Go to >'Google.scholar>setting>libraires>' and then add WGU and other libraries.
 
 <img src="./_images/google_scholar_demo.gif" height="200px" alt = "short moive demonstraiting how to use google.scholar.com." />
 :::
@@ -180,11 +180,7 @@ Complete the [approval form](https://ashejim.github.io/C769-ROM3/task1_ROM3.html
 
 Nearing the end of your term? Plan accordingly *Note: This video was created for ROM2 but is mostly relevant for ROM3..*:
 
-<iframe width="560" height="315" src="https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e5deb87f-d7ee-42c8-9c02-b10a013f0dae" title="Passing C769 before your end of term" frameborder="0" style="border: 1px solid #464646;" alt= "Title screen for video">
-</iframe>
-
-<!-- <iframe width="560" height="315" src="https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e5deb87f-d7ee-42c8-9c02-b10a013f0dae" title="Passing C769 before your end of term" frameborder="0" style="border: 1px solid #464646;" allowfullscreen allow="autoplay" alt= "Title screen for video">
-</iframe> -->
+{{ accelerated_plan_video }}
 
 ```{warning}
 Be aware that task 2 and 3 evaluations often take the full three days. Therefore, if you are approaching the end of your term, don't wait on task 2 to start task 3 and submit task 3 early enough to have it returned, revised, and resubmitted.
