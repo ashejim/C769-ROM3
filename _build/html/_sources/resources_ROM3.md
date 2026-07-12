@@ -60,7 +60,6 @@ IT Audio Series podcast [Converting Task 2 to Task 3](https://d2y36twrtb17ty.clo
 
 ### WGU AI Policies
 
-- {{ ai_policy_hub }}
 - {{ ai_student_guide }}
 - {{ ai_use_policy }}
 
