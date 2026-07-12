@@ -1,6 +1,32 @@
 @echo off
-SET /P Message=Enter git C769-ROM3 commit comment:
 title C769-ROM3: compile html, save to repo folder, update GitHub repo and website
+
+@REM --- Get the commit comment and CONFIRM it before doing ANYTHING else ---
+@REM SET /P does not mask input, so whatever is typed here is shown on screen and would
+@REM become the PUBLIC commit message (pushed to GitHub). To stop a stray keystroke -
+@REM e.g. a password typed by mistake - from ever being committed, we (1) reject an empty
+@REM comment and (2) echo the comment back and require an explicit Y before continuing.
+:getcomment
+SET "Message="
+SET /P Message=Enter git C769-ROM3 commit comment:
+if not defined Message (
+  echo.
+  echo *** Empty comment. Please enter a short description of your changes. ***
+  echo.
+  goto getcomment
+)
+echo.
+echo Your commit comment will be:
+echo     "%Message%"
+echo.
+SET "Confirm="
+SET /P Confirm=Commit and publish with this comment? (Y/N):
+if /I not "%Confirm%"=="Y" (
+  echo.
+  echo *** Canceled. Nothing was committed or pushed. Re-run to try again. ***
+  pause
+  exit /b 1
+)
 
 @REM --- Robust paths: always run from THIS script's own folder ---
 @REM %~dp0 is this .bat's own drive+path (the Jupyter Book + git repo root), with a
