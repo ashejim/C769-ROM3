@@ -1,0 +1,29 @@
+# GitLab CI/CD — publish the pre-built Jupyter Book to GitLab Pages.
+#
+# This repo commits the built site (_build/html) into `main` — the same output
+# that update_C769_ROM3_site.bat rebuilds before every push. So CI does NOT
+# rebuild; it just serves those files. That means no Python, no notebook
+# execution, and no network on the runner — the deploy is fast and can't fail
+# on a build step.
+#
+# GitHub ignores this file entirely; it only takes effect on GitLab.
+#
+# ACCESS CONTROL is set once in the GitLab UI, not here:
+#   Settings → Deploy → Pages → "Only project members"
+# Because the project inherits the WGU group's members, that restricts the live
+# site to WGU-SSO logins and blocks the public internet.
+
+image: alpine:latest
+
+pages:
+  stage: deploy
+  script:
+    # GitLab Pages serves whatever ends up in ./public
+    - rm -rf public
+    - cp -r _build/html public
+  artifacts:
+    paths:
+      - public
+  rules:
+    # Only deploy from the default branch (main), not feature branches
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
