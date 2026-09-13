@@ -19,14 +19,13 @@ These examples are on-par with average passing tasks. Use them as a guideline fo
 <!-- change raw to blob to view pdf in github. GitHub is having issues showing the file in Chrome and Edge -->
 <!-- TODO: Each tab's Task 1 example PDF still shows the OLD approval form and carries a "\*" on its Task 1 link plus a matching "\*" note under the links box. As you regenerate each example from the new 4-box form, swap that set's Task 1 link and delete that set's "\*" marker and note. -->
 
-**Task 2 — The Proposal:** {{ task2_example }} — a single example that most closely follows the current Task 2 template. (Its topic differs from the Task 1/Task 3 sets below.)
-
-The Task 1 and Task 3 examples below are grouped into complete capstones by topic:
+These examples are grouped into complete capstones by topic:
 
 `````{tab-set}
 ````{tab-item} Example set 1
 **Topic:** Modern Security Information and Event Management (SIEM) Systems
 > Task 1: {{ task1_example1 }}\*  
+> Task 2: {{ task2_example1 }}  
 > Task 3: {{ task3_example1 }}
 
 \* *This Task 1 example uses the **old** topic approval form. Task 1 now uses the new 4-box approval form; see [Submitting the Approval Form](task1:topicapproval).*
@@ -34,6 +33,7 @@ The Task 1 and Task 3 examples below are grouped into complete capstones by topi
 ````{tab-item} Example set 2
 **Topic:** Security Evaluation and Upgrade
 > Task 1: {{ task1_example2 }}\*  
+> Task 2: {{ task2_example2 }}  
 > Task 3: {{ task3_example2 }}
 
 \* *This Task 1 example uses the **old** topic approval form. Task 1 now uses the new 4-box approval form; see [Submitting the Approval Form](task1:topicapproval).*

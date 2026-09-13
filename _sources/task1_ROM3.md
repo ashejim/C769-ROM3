@@ -62,17 +62,17 @@ The {{ excellence_archive }} includes a wide range of completed projects to revi
 For a more down-to-earth example of what's required, see these examples: 
 <!-- [task 1 examples](resources:examples) -->
 
-**Task 2 — The Proposal:** {{ task2_example }} — a single example that most closely follows the current Task 2 template.
-
 `````{tab-set}
 ````{tab-item} Example set 1
 **Topic:** Modern Security Information and Event Management (SIEM) Systems
 > Task 1: {{ task1_example1 }}  
+> Task 2: {{ task2_example1 }}  
 > Task 3: {{ task3_example1 }}
 ````
 ````{tab-item} Example set 2
 **Topic:** Security Evaluation and Upgrade
 > Task 1: {{ task1_example2 }}  
+> Task 2: {{ task2_example2 }}  
 > Task 3: {{ task3_example2 }}
 :::{note}
 The security upgrades, not the evaluation, are what's necessary to meet the requirements. 
