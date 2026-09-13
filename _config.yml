@@ -97,13 +97,15 @@ parse:
     schedule_appointment: "[Schedule an Appointment](https://westerngovernorsuniversity.sharepoint.com/:w:/s/CourseResources/IQA76nOCFdrDT5C2jA1VxuyEAfaNmbhXxJH72Qkr0ZF97DM?e=aDFBQI)"
     ## Repo
     github_repo: "[⭐ repo](https://github.com/ashejim/C769-ROM3)"
-    ## Examples (task1/task3 grouped into two topic sets "1"/"2"; task2 is a single shared example)
+    ## Examples — task1/task2/task3 grouped into two complete-capstone topic sets ("1"/"2")
+    # Set 1 — Modern Security Information and Event Management (SIEM) Systems
     task1_example1: "[Topic approval form example](https://westerngovernorsuniversity.sharepoint.com/:b:/s/CourseResources/IQAM8gu_hhspQKCgKcbLbaklAeLpy3VNrUncCzofErIFE8s?e=ol6hWy)"
+    task2_example1: "[Project proposal example](https://github.com/ashejim/C769-ROM3/blob/main/resources/examples/Sample1_C769_ROM3_Task2.pdf)"
     task3_example1: "[Project report example](https://westerngovernorsuniversity.sharepoint.com/:b:/s/CourseResources/IQDk3j6VzO7OTKk4hgW-PgrqAYsiRgpgOJPw43LPxm8cv4g?e=G5NOY5)"
+    # Set 2 — Security Evaluation and Upgrade
     task1_example2: "[Topic approval form example](https://westerngovernorsuniversity.sharepoint.com/:b:/s/CourseResources/IQCy8R7_1L_wQIxJaQsOpIBxARhg6XF6Kt8TVfZe5eJq9Eg?e=atKpBX)"
+    task2_example2: "[Project proposal example](https://github.com/ashejim/C769-ROM3/blob/main/resources/examples/Sample2_C769_ROM3_Task2.pdf)"
     task3_example2: "[Project report example](https://westerngovernorsuniversity.sharepoint.com/:b:/s/CourseResources/IQClUePtQjquRLMVE1GbDeExAfv5H5Ll2ouD7GrwKIIRYF0?e=sAYhhS)"
-    # Single Task 2 example: closest match to the current Task 2 template (Kali Aero App Development)
-    task2_example: "[Project proposal example (Kali Aero App Development)](https://github.com/ashejim/C769-ROM3/blob/main/resources/examples/C769_ROM3_Task2_sample2_pass.pdf)"
     ## Videos (whole <iframe> stored here; reference as {{ name }} on its own line in the .md)
     intro_video: '<iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=05211a31-2088-4fe1-919f-b1ff0132a6c4&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" title="C769 Overview" width="640px" height="360px" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>'
     task1_video: '<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%"><iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=6e1e1424-d74b-4c98-b965-b35501196759&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" style="border: 1px solid #464646; position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="C769 Capstone Task 1: Topic Approval"></iframe></div>'
